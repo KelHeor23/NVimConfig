@@ -3,7 +3,6 @@ git clone https://github.com/neovim/neovim.git
 cd neovim
 sudo make
 sudo make install
-mkdir ~/.config/nvim
 git clone https://github.com/NvChad/starter ~/.config/nvim
 sudo cp -f init.lua ~/.config/nvim/
 sudo cp -f lua/keymaps.lua ~/.config/nvim/lua/
